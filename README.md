@@ -24,4 +24,6 @@ Está pensado para que devuelva error bajo ciertas condiciones.
 Ten en cuenta que es un servicio que conviviría en un entorno de microservicios y alta concurrencia.
 
 Le puedes dedicar el tiempo que quieras, pero hemos estimado que 3-4 horas es suficiente para demostrar  [los requisitos del puesto.](OFERTA.md#requisitos)
- No hace falta que lo documentes pero puedes anotar todo lo que quieras como explicación o justificación de lo que hagas o dejes sin hacer.
+No hace falta que lo documentes pero puedes anotar todo lo que quieras como explicación o justificación de lo que hagas o dejes sin hacer.
+ 
+https://github.com/syltek/technical-test-backend/tree/app/exercise-1
