@@ -1,0 +1,121 @@
+{
+	"id": "77b89447-982d-46d9-a2e5-972ac5c65bb5",
+	"name": "wallet",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"5e66712f-9a05-4676-9110-71af743ecf28",
+		"20afa14e-38d8-46c8-9ca1-f21d3b30239b",
+		"f203ce7d-c749-4e61-baac-552673ef2430",
+		"89807295-69d8-4dd1-aa60-d1eaf1c885f1"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "20afa14e-38d8-46c8-9ca1-f21d3b30239b",
+			"name": "Get Wallet",
+			"url": "localhost:8090/wallet/1",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "5e66712f-9a05-4676-9110-71af743ecf28",
+			"name": "Create Wallet",
+			"url": "localhost:8090/wallet",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "89807295-69d8-4dd1-aa60-d1eaf1c885f1",
+			"name": "Discount Balance",
+			"url": "localhost:8090/wallet/1/discount-balance",
+			"description": "",
+			"data": [
+				{
+					"key": "amount",
+					"value": "5",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "f203ce7d-c749-4e61-baac-552673ef2430",
+			"name": "Add Balance",
+			"url": "localhost:8090/wallet/1/add-balance",
+			"description": "",
+			"data": [
+				{
+					"key": "amount",
+					"value": "15",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		}
+	]
+}
